@@ -19,8 +19,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: './', // Important for deployment
+   base: './',
   build: {
-    outDirr: 'dist'
+    outDir: 'dist',
+    sourcemap: false
   }
 })
